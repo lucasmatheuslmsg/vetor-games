@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vetor Games</title>
+    <link rel="icon" type="image/png" href="logo_vetor.png">
+    <link rel="stylesheet" href="vetor_style.css">
+</head>
+<body>
+    <header class="topo">
+        <div class="conteudo">
+            <img src="logo_vetor.png" alt="Logo da Vetor Games">
+            <div>
+                <h1 class="logo">Vetor Gamer</h1>
+                <p class="slogan">Casa dos gamers</p>
+            </div>
+        </div>
+    </header>
+<main class="principal">
+        <section class="filtros">
+            <input type="text" id="busca" placeholder="Pesquisar jogo pelo nome...">
+ 
+            <div class="botoes-categoria" id="botoesCategoria">
+                <button class="btn-categoria ativo" data-categoria="Todas">Todas</button>
+                <button class="btn-categoria" data-categoria="Sandbox">Sandbox</button>
+                <button class="btn-categoria" data-categoria="Estratégia">Estratégia</button>
+                <button class="btn-categoria" data-categoria="Luta">Luta</button>
+                <button class="btn-categoria" data-categoria="Ação">Ação</button>
+                <button class="btn-categoria" data-categoria="Esporte">Esporte</button>
+            </div>
+        </section>
+        <section class="lista" id="lista"></section>
+        <section class="carrinho">
+            <h2>Carrinho (<span id="qtdCarrinho">0</span>)</h2>
+            <ul id="itensCarrinho"></ul>
+            <p class="total">Total: <strong id="total">R$ 0,00</strong></p>
+        </section>
+ 
+    </main>
+    <footer class="rodape">
+        <p>&copy; 2026 Vetor Games. Todos os direitos reservados.</p>
+    </footer>
+
+    <script src="vetor_script.js"></script>
+</body>
+</html>

@@ -1,0 +1,182 @@
+/* Conjunto de cores para o site Vetor Games */    
+:root {
+    --preto: #080808;
+    --fundo: #0d0d0f;
+    --superficie: #151518;
+    --superficie-clara: #1d1d21;
+
+    --vermelho: #e5092f;
+    --vermelho-claro: #ff2a4d;
+    --vermelho-escuro: #a80725;
+
+    --branco: #f5f5f5;
+    --texto: #d8d8dc;
+    --texto-cinza: #96969d;
+    --texto-vermelho: #ff405f;
+
+    --borda: rgba(255, 255, 255, 0.947);
+    --borda-vermelha: rgba(229, 9, 47, 0.35);
+
+    --sombra: 0 12px 35px rgba(0, 0, 0, 0.45);
+    --brilho-vermelho: 0 0 25px rgba(229, 9, 47, 0.20);
+
+    --arredondamento: 10px;
+    --arredondamento-pequeno: 6px;
+
+    --transicao: 0.25s ease;
+
+    --largura-site: 1100px;
+    --altura-logo: 56px;
+    --fonte: "Segoe UI", Tahoma, Arial, sans-serif;
+}
+/* Estilos para o cabeçalho */
+.topo {
+    background: var(--preto);
+    border-bottom: 1px solid var(--borda-vermelha);
+    padding: 18px 0;
+    box-shadow: var(--sombra);
+}
+/* Estilos para o conteúdo do site */
+.conteudo {
+    width: 90%;
+    max-width: var(--largura-site);
+    margin: 0;
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.conteudo img {
+    width: var(--altura-logo);
+    height: var(--altura-logo);
+    object-fit: contain;
+}
+
+.logo {
+    color: var(--branco);
+    font-size: 30px;
+    font-weight: 800;
+    letter-spacing: -1px;
+    margin: 0;
+}
+
+.logo span {
+    color: var(--vermelho);
+}
+
+.slogan {
+    color: var(--texto-vermelho);
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin: 2px 0 0;
+}
+.card button {
+    padding: 10px;            
+    font-size: 1rem;          
+    font-weight: 600;          
+    color: var(--branco);      
+    background: var(--vermelho);
+    border: none;              
+    border-radius: var(--arredondamento); 
+    cursor: pointer;           
+}
+
+.card button:hover {
+    background: var(--vermelho-claro); 
+}
+
+.carrinho li button {
+    padding: 8px 16px;
+    font-size: 0.95rem;
+    font-weight: 600;
+    color: var(--branco);
+    background: var(--vermelho);
+    border: none;
+    border-radius: 999px;
+    cursor: pointer;
+    display: flex;
+    gap: 8px;
+    margin-top: 12px;
+}
+
+.carrinho li button:hover {
+    background: var(--vermelho-claro);
+}
+.card h3 {
+    color: var(--branco);
+    font-size: 1.2rem;
+}
+.botoes-categoria button {
+    padding: 2px 16px;
+    font-size: 0.95rem;
+    font-weight: 600;
+    color: var(--vermelho);
+    background: var(--superficie-clara);
+    border: none;
+    border-radius: 999px;
+    cursor: pointer;
+    gap: 8px;
+    margin-top: 12px;   
+
+}
+.filtros {
+    margin-bottom: 24px;
+}
+.card .categoria {
+    align-self: flex-start;
+    font-size: 0.8rem;
+    color: var(--texto-vermelho);
+    border: 1px solid var(--borda-vermelha);
+    border-radius: 999px;
+    padding: 2px 16px;
+    margin-bottom: 8px;
+    margin-top: 8px;
+    gap: 8px;
+}
+.botoes-categoria {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+    margin-top: 16px;
+}
+
+.lista {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+    gap: 20px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    padding: 20px;
+    background: var(--superficie);
+    border: 1px solid var(--borda);
+    border-radius: var(--arredondamento);
+}
+.card .preco {
+    color: var(--branco);
+    font-size: 1.1rem;
+    font-weight: 600;
+}
+#busca {
+    max-width: 420px;
+    padding: 10px;
+    font-size: 1rem;
+    color: var(--branco);
+    background: var(--superficie-clara);
+    border: 1px solid var(--borda);
+    border-radius: var(--arredondamento);
+    margin-top: 12px;
+}
+.rodape {
+    margin-top: 48px;
+    padding: 24px;
+    text-align: center;
+    color: var(--texto-cinza);
+    font-size: 0.9rem;
+    background: var(--preto);
+    border-top: 1px solid var(--borda-vermelha);
+}

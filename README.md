@@ -6,7 +6,7 @@ Projeto Integrador da disciplina **Front-End Frameworks** (2026.2), curso de An�
 
 | Nome completo | GitHub |
 | --- | --- |
-| Mateus Henrique Trajano Da Silva Pessoa| @usuario-github |
+| Mateus Henrique Trajano Da Silva Pessoa| @mateustrajano05 |
 | Lucas Matheus Silva Gomes | @lucasmatheuslmsg |
 | Vinícius Tavares Alves | @viniciustavaresalves19 |
 | Pedro Fellipe Paixão de Araújo Cintra | @pedrofcintra1-ai |

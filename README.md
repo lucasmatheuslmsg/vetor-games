@@ -10,6 +10,7 @@ Projeto Integrador da disciplina **Front-End Frameworks** (2026.2), curso de An�
 | Lucas Matheus Silva Gomes | @lucasmatheuslmsg |
 | Vinícius Tavares Alves | @viniciustavaresalves19 |
 | Pedro Fellipe Paixão de Araújo Cintra | @pedrofcintra1-ai |
+| Felipe | @usuario-github |
 
 ## Descrição
 
@@ -41,14 +42,14 @@ Não foram usados frameworks, bibliotecas, back-end, banco de dados nem APIs ext
 
 ```
 /
-├── index.html
+├── vetor_games.html
 ├── vetor_style.css
 ├── vetor_script.js
 ├── logo_vetor.png
 └── README.md
 ```
 
-- `index.html`: estrutura da página.
+- `vetor_games.html`: estrutura da página.
 - `vetor_style.css`: estilos da interface.
 - `vetor_script.js`: lógica do catálogo (dados dos produtos, filtro e interações).
 - `logo_vetor.png`: logotipo da loja.
@@ -57,10 +58,10 @@ Não foram usados frameworks, bibliotecas, back-end, banco de dados nem APIs ext
 
 1. Baixe ou clone o repositório:
    ```
-   git clone https://github.com/USUARIO/REPOSITORIO.git
+   git clone https://github.com/lucasmatheuslmsg/vetor-games.git
    ```
 2. Abra a pasta do projeto.
-3. Dê um duplo clique em `index.html` para abrir no navegador.
+3. Dê um duplo clique em `vetor_games.html` para abrir no navegador.
 
 Não é preciso instalar nada nem ter servidor.
 

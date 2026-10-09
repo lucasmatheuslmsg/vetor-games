@@ -1,6 +1,6 @@
 # VetorGames: Catálogo de Produtos
 
-Projeto Integrador da disciplina **Front-End Frameworks** (2026.2), curso de Análise e Desenvolvimento de Sistemas. Avaliação das Unidades I e II.
+Projeto Integrador da disciplina **Front-End Frameworks** (2026.2), curso de Análise e Desenvolvimento de Sistemas.
 
 ## Integrantes
 
